@@ -1,0 +1,10 @@
+def areaofrectangularprism(w,h,l):
+    print(f"The Width is {w}")
+    print(f"The Height is {h}")
+    print(f"The Length is {l}")
+    area=2*((w*l)+(h*l)+(l*w))
+    print(f"The area of Rectangular Prism:{area}")
+w=int(input("Enter The Width of Rectangular Prism:"))
+h=int(input("Enter The Height of Rectangular Prism:"))
+l=int(input("Enter The Length of Rectangular Prism:"))
+areaofrectangularprism(w,h,l)
